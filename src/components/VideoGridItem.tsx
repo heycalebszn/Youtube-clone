@@ -6,8 +6,8 @@ type VideoGridItemProps = {
   id: string
   title: string
   channel: {
-    id: string
-    name: string
+    id: string,
+    name: string,
     profileUrl: string
   }
   views: number
